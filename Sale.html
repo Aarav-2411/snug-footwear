@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Snug Footwear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="icon" href="Snug.png" type="image/png" sizes="16x16">
+
+    <link rel="stylesheet" href="Men.css">
+</head>
+
+<body>
+
+    <nav class="navbar-inverse menu_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <center>
+            <div class="collapse navbar-collapse" Id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html"><img src="Snug.png" style="width: 25px;;"></a></li>
+                    <li><a href="Women.html">Women</a></li>
+                    <li><a href="Men.html">Men</a></li>
+                    <li><a href="Kids.html">Kids</a></li>
+                    <li><a href="Sale.html">Sale</a></li>
+                </ul>
+            </div>
+        </center>
+    </nav>
+    <br>
+    <center>
+        <hr>
+        <p><i>5000+ styles
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Free Shipping
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Return within 30 days</i></p>
+        <hr>
+        <p>
+            <select name="Gender" id="Genders" onchange="drop()">
+                <option value="gender">Gender</option>
+                <option value="kids">Kids</option>
+                <option value="women">Women</option>
+                <option value="men">Men</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="Size" id="Sizes" onchange="drop()">
+                <option value="size">Size</option>
+                <option value></option>
+            </select>
+        </p>
+        <br>
+        
+        <marquee id="last">
+            <center>
+                Stay Updated for future stocks - follow us on:
+                <a class="folloew" href="https://www.instagram.com/?hl=en"
+                    target="_blank">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="follow"
+                    href="https://www.facebook.com/" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                    class="follow" target="_blank" href="https://twitter.com/?lang=en">Twitter</a>
+            </center>
+        </marquee>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.menu_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+  }
+
+  ul a:hover {
+    font-size: 20px;
+  }
+
+  
+
+#last {
+  font: italic bold 12px 30px Georgia, serif;
+  font-variant: small-caps;
+  margin-top: 10px;
+  }
+  
+#last a {
+  color: inherit;
+}

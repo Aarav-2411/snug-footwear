@@ -1,0 +1,119 @@
+marquee {
+    padding: 10px;
+    background-color: lightgray;
+    font-size: 15px;
+}
+
+body {
+    padding: 10px;
+}
+
+h5 b {
+    text-shadow: 2px 2px lightgray;
+    letter-spacing: 1px;
+}
+
+kbd {
+    width: 45px;
+    height: 30px;
+    font-size: 20px;
+}
+
+div {
+    border-color: black;
+    border-width: 2.5px;
+}
+
+hr {
+    border-width: 3px;
+}
+
+.boy1age {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+.modal_img {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.modal-content {
+    margin-top: 72px;
+    text-align: center;
+    padding: 15px;
+    animation-name: back;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}  
+
+@keyframes back {
+    from{box-shadow: 5px 5px 20px 5px darkblue}
+    to{box-shadow: 5px 5px 20px 5px cyan}
+}
+
+#abcd{
+    margin-top : 20px;
+}
+
+h4 {
+    font-family: 'Fruktur', cursive;
+    text-decoration: underline overline;
+}
+
+.footer {
+    font-family: 'Henny Penny', cursive;
+}
+
+.btn-info, .btn-success {
+    font-family: 'Henny Penny', cursive;
+}
+
+kbd {
+    font-family: 'Dancing Script', cursive;
+    font-variant: small-caps;
+}
+
+#last {
+font: italic bold 12px 30px Georgia, serif;
+font-variant: small-caps;
+margin-top: 10px;
+}
+
+#last a {
+    color: initial;
+}
+
+.btn-success {
+    width: 250px;
+    height: 40px;
+    letter-spacing: 5;
+    font-size: 22px;
+    border: 2px groove black;
+}
+
+.btn-success:hover {
+    box-shadow: 10px 5px 20px 5px yellow;
+}
+
+
+h3 {
+    font-family: 'Fruktur', cursive;
+    text-decoration: underline double;
+    letter-spacing: 2;
+}
+
+.menu_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    border: 2px solid black;
+  }
+
+ ul a:hover {
+      font-size: 20px;
+  }
